@@ -1,0 +1,14 @@
+# Initialize a git repository
+git init
+
+# Add all files to the staging area
+git add .
+
+# Commit the changes
+git commit -m "Initial commit"
+
+# Add the remote repository (replace with your GitHub URL)
+git remote add origin https://github.com/your-username/telegram-bot.git
+
+# Push the code to GitHub
+git push -u origin master
